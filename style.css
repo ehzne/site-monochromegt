@@ -22,14 +22,40 @@ nav {
     gap: 60px;
 }
 
-.image{
+.image {
     background-image: url(asset/bg-image-2.png);
     background-position: center;
     background-size: cover;
     padding: 150px;
     color: white;
-    
+
 }
+
+.sponsor {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.confiance a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.less a {
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
 .hero {
     background-image: url(asset/bg-image-hero.png);
     background-size: cover;
@@ -37,18 +63,25 @@ nav {
     color: white;
     padding: 150px;
 }
-.project{
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px;
-}
-.carteproject{
+
+.project {
     display: flex;
-    flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-footer {
+.carteproject {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lumière {
+    width: 340px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+. footer {
     text-align: center;
 }
