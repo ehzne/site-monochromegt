@@ -64,13 +64,15 @@ nav {
 }
 
 .project {
- 
-width: 700px;
+
+    width: 700px;
 }
 
 .carteproject {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
 }
 
 .lumière {
@@ -82,9 +84,7 @@ width: 700px;
 .container {
     margin: auto;
     max-width: 750px;
-    /* display: flex;
-    justify-content: center;
-    text-align: left; */
+
 }
 
 footer {
@@ -95,9 +95,11 @@ footer {
     padding: 10px;
     margin: 0;
 }
-.studio{
-text-align: center;
+
+.studio {
+    text-align: center;
 }
+
 .logoo {
     width: 70px;
 }
