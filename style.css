@@ -12,30 +12,29 @@ nav {
     gap: 30px;
 }
 
-.container {
-    margin: auto;
-    max-width: 700px;
+.hero {
+    background-image: url(asset/bg-image-hero.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px;
+}
+
+.ismore {
+    text-align: left;
 }
 
 .less {
     display: flex;
-    gap: 60px;
+    gap: 70px;
 }
 
-.image {
-    background-image: url(asset/bg-image-2.png);
-    background-position: center;
-    background-size: cover;
-    padding: 150px;
+.less a {
+    background-color: black;
     color: white;
-
-}
-
-.sponsor {
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
-    gap: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .confiance a {
@@ -48,27 +47,25 @@ nav {
     border-radius: 5px;
     margin-left: 40px;
 }
-.less a {
-    background-color:black;
+
+.image {
+    background-image: url(asset/bg-image-2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
     color: white;
-    border-radius: 15px;
-    padding: 10px;
-    text-decoration: none;
 }
 
-.hero {
-    background-image: url(asset/bg-image-hero.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 150px;
+.sponsor {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+ 
+width: 700px;
 }
 
 .carteproject {
@@ -82,6 +79,25 @@ nav {
     gap: 10px;
 }
 
-. footer {
-    text-align: center;
+.container {
+    margin: auto;
+    max-width: 750px;
+    /* display: flex;
+    justify-content: center;
+    text-align: left; */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+}
+.studio{
+text-align: center;
+}
+.logoo {
+    width: 70px;
 }
