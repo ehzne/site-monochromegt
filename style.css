@@ -17,6 +17,19 @@ nav {
     max-width: 700px;
 }
 
+.less {
+    display: flex;
+    gap: 60px;
+}
+
+.image{
+    background-image: url(asset/bg-image-2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    
+}
 .hero {
     background-image: url(asset/bg-image-hero.png);
     background-size: cover;
@@ -24,8 +37,18 @@ nav {
     color: white;
     padding: 150px;
 }
+.project{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+.carteproject{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
 footer {
     text-align: center;
-
 }
